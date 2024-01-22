@@ -22,36 +22,87 @@
     </style>
 </head>
 <body class="font-manrope">
-    <header class="w-4/5 m-auto lg:relative">
-        <div class="carousel w-full">
-            <div id="slide1" class="carousel-item relative w-full">
-              <img src="images/1.png" class="w-full" />
-              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                <a href="#slide3" class="btn btn-circle">❮</a> 
-                <a href="#slide2" class="btn btn-circle">❯</a>
-              </div>
-            </div> 
-            <div id="slide2" class="carousel-item relative w-full">
-              <img class="rounded-3xl" src="images/stick.jpg" class="w-full" />
-              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                <a href="#slide1" class="btn btn-circle">❮</a> 
-                <a href="#slide3" class="btn btn-circle">❯</a>
-              </div>
-            </div> 
-            <div id="slide3" class="carousel-item relative w-full">
-              <img class="rounded-3xl" src="images/field.jpg" class="w-full" />
-              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                <a href="#slide2" class="btn btn-circle">❮</a> 
-                <a href="#slide1" class="btn btn-circle">❯</a>
-              </div>
+    <header>
+        <div class="w-4/5 m-auto lg:relative">
+            <div class="carousel w-full">
+                <div id="slide1" class="carousel-item relative w-full">
+                  <img src="images/1.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide3" class="btn btn-circle">❮</a> 
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide2" class="carousel-item relative w-full">
+                  <img class="rounded-lg lg:rounded-3xl" src="images/stick.jpg" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle">❮</a> 
+                    <a href="#slide3" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide3" class="carousel-item relative w-full">
+                  <img class="rounded-lg lg:rounded-3xl" src="images/field.jpg" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide2" class="btn btn-circle">❮</a> 
+                    <a href="#slide1" class="btn btn-circle">❯</a>
+                  </div>
+                </div>
+            </div>
+            <div class="p-8 bg-[#131318] rounded-2xl lg:absolute lg:w-2/6 lg:bottom-8 lg:right-8">
+                <h3 class="text-xl lg:text-2xl font-extrabold mb-4 text-white">Meet all the heroes from the field</h3>
+                <p class="font-medium text-[#FFFFFF7F]">We pride ourselves on being a friendly, inclusive club offering hockey for all.</p>
             </div>
         </div>
-        <div class="w-2/6 p-8 bg-[#131318] rounded-2xl lg:absolute lg:bottom-8 right-8">
-            <h3 class="text-2xl font-extrabold mb-4 text-white">Meet all the heroes from the field</h3>
-            <p class="font-medium text-[#FFFFFF7F]">We pride ourselves on being a friendly, inclusive club offering hockey for all.</p>
-        </div>
     </header>
-    <main>
+    <main class="w-4/5 m-auto">
+        <!-- Professional Section  -->
+        <section class="mt-10 lg:mt-20">
+            <div class="border-dashed border-y-2 py-14 border-[#13131833] p-4 text-center mb-11">
+                <h1 class="font-extrabold text-xl lg:text-4xl text-[#131318] mb-4">Professional Hockeys Club</h1>
+                <p class="text-[#13131899] lg:px-60">Our internationally experienced coaches enable everyone at the club to fulfil their potential at every age group, from juniors starting the game to veterans who are grateful to finish a match.</p>
+            </div>
+            <div class="w-11/12 m-auto">
+                <div class="text-center lg:flex gap-2">
+                    <div class="card lg:w-1/4 bg-base-100">
+                        <div class="radial-progress text-red-600 m-auto my-3" style="--value:85;" role="progressbar">85%</div>
+                        <div class="card-body text-center">
+                          <h2 class="card-title m-auto">Prayer Facility</h2>
+                          <p>Our club has superb facilities; two flood-lit, sand-dressed international standard pitches.</p>
+                        </div>
+                      </div>
+                    <div class="card lg:w-1/4 bg-base-100">
+                        <div class="radial-progress text-green-600 m-auto my-3" style="--value:95;" role="progressbar">95%</div>
+                        <div class="card-body text-center">
+                          <h2 class="card-title m-auto">Experienced Coach</h2>
+                          <p>Our club has superb facilities; two flood-lit, sand-dressed international standard pitches.</p>
+                        </div>
+                      </div>
+                    <div class="card lg:w-1/4 bg-base-100">
+                        <div class="radial-progress text-yellow-500 m-auto my-3" style="--value:90;" role="progressbar">90%</div>
+                        <div class="card-body text-center">
+                          <h2 class="card-title m-auto">Senior Player</h2>
+                          <p>Our club has superb facilities; two flood-lit, sand-dressed international standard pitches.</p>
+                        </div>
+                      </div>
+                    <div class="card lg:w-1/4 bg-base-100">
+                        <div class="radial-progress text-blue-600 m-auto my-3" style="--value:80;" role="progressbar">80%</div>
+                        <div class="card-body text-center">
+                          <h2 class="card-title m-auto">Training Ground</h2>
+                          <p>Our club has superb facilities; two flood-lit, sand-dressed international standard pitches.</p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </section>
+        <!-- Professional Section end -->
+
+        <!-- Program Sections  -->
+        <section>
+            <div class="border-dashed border-y-2 py-14 border-[#13131833] p-4 text-center mb-11">
+                <h1 class="font-extrabold text-xl lg:text-4xl text-[#131318] mb-4">Program Sections</h1>
+                <p class="text-[#13131899] lg:px-60">We have a thriving social community with socials for all ages. Events include our annual Dinner Dance, Oktoberfest and party.</p>
+            </div>
+        </section>
+        <!-- Program Sections end -->
 
     </main>
     <footer>
